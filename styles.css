@@ -1,16 +1,15 @@
-/* General Styles */
-body {
+/*general styles*/
+body, p {
   font-family: Calibri, Helvetica, sans-serif;
-  margin: 20px;
 }
 
-/* Heading Styles */
+/*heading styles*/
 h1, h2 {
   font-family: "Courier New", monospace;
   color: red;
 }
 
-/* Links */
+/*links*/
 a:link {
   color: red;
 }
@@ -18,7 +17,17 @@ a:visited {
   color: green;
 }
 
-/* Lists */
+/*button styles*/
+input[type="submit"]:hover {
+  background-color: red;
+  color: white;
+}
+input[type="submit"]:active {
+  background-color: green;
+  color: white;
+}
+
+/*lists*/
 ul {
   list-style-type: square;
 }
@@ -26,7 +35,7 @@ ol {
   list-style-type: lower-roman;
 }
 
-/* Table Styles */
+/*table styles*/
 table {
   border-collapse: collapse;
   width: 100%;
@@ -41,20 +50,4 @@ tr:nth-child(even) {
 }
 tr:hover {
   background-color: lightblue;
-}
-
-/* Button Styles */
-input[type="submit"] {
-  padding: 8px 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-input[type="submit"]:hover {
-  background-color: red;
-  color: white;
-}
-input[type="submit"]:active {
-  background-color: green;
-  color: white;
 }
